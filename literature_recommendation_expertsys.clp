@@ -9,11 +9,11 @@
    (slot author)
 )
 
-(deffacts books
-    (book (title "Book 1") (genre "Mystery") (author "Author 1"))
-    (book (title "Book 2") (genre "Science Fiction") (author "Author 2"))
-    ; Add more book facts here
-)
+; (deffacts books
+;     (book (title "Book 1") (genre "Mystery") (author "Author 1"))
+;     (book (title "Book 2") (genre "Science Fiction") (author "Author 2"))
+;     ; Add more book facts here
+; )
 
 (deffunction assert-books-from-csv (?csv-file)
    (open ?csv-file "r")
@@ -34,11 +34,11 @@
 
 (assert-books-from-csv "books.csv")
 
-(deffacts users
-    (user (name "User 1") (interest "Mystery"))
-    (user (name "User 2") (interest "Science Fiction"))
-    ; Add more user facts here
-)
+; (deffacts users
+;     (user (name "User 1") (interest "Mystery"))
+;     (user (name "User 2") (interest "Science Fiction"))
+;     ; Add more user facts here
+; )
 
 (deffunction assert-users-from-csv (?csv-file)
    (open ?csv-file "r")
