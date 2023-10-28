@@ -8,4 +8,7 @@
 |Fauzan Ahmad Faisal                |5025211067 | 
 
 ## ChatGPT Sample Link
-<a href="https://chat.openai.com/share/0928a975-b904-4ee9-b30b-237503076f7c" target="_blank">- Base Chat</a>
+<a href="https://chat.openai.com/share/0928a975-b904-4ee9-b30b-237503076f7c" target="_blank">Base Chat</a>
+
+## Datasets
+<a href="https://zenodo.org/records/4265096" target="_blank">Book Dataset</a>
